@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header img {
+    width: 24px;
+    margin-left: 305px;
+    margin-top: 13px;
+}
+
+header p {
+    font-size: 18px;
+    margin-left: 45px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+main p {
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.botão-comprar{
+    border: none;
+    width: 141px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 17px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botão-comprar:hover{
+    background-color: skyblue;
+    transition: 0.5s ease-in-out;
+}
+
+.botao1 {
+    border: none;
+    width: 42px;
+    padding: 21px;
+    border-radius: 175px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    margin-right: 5px;
+}
+
+.botao2 {
+    border: none;
+    width: 42px;
+    padding: 21px;
+    border-radius: 175px;
+    cursor: pointer;
+    background-color: yellow;
+    margin-right: 5px;
+
+}
+
+.botao3 {
+    border: none;
+    width: 42px;
+    padding: 21px;
+    border-radius: 175px;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 5px;
+    
+}
+
+.botao4 {
+    border: none;
+    width: 42px;
+    padding: 21px;
+    border-radius: 175px;
+    cursor: pointer;
+    background-color: black;
+    margin-right: 5px;
+}
+
+.botao5 {
+    border: none;
+    width: 42px;
+    padding: 21px;
+    border-radius: 175px;
+    cursor: pointer;
+    background-color: red;
+    margin-right: 5px;
+}
+
+.Iphone {
+    display: flex;
+    width: 274px;
+    margin-left: 70%;
+    margin-top: -25%;
+    filter: drop-shadow(30px 45px 40px #161616);
+}
+
+.circulo {
+    background: cornflowerblue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(650px at right 650px);
+    z-index: -1;
+}
+
+.iphone-efeito {
+    transition: 0.7s;
+    opacity: 0;
+    transform:   translateY(-25px) translateY(0px);
+
+}
